@@ -28,6 +28,7 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
+# This could be removed
 - task: VSTest@2
   inputs:
     platform: '$(buildPlatform)'
